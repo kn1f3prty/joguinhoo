@@ -15,6 +15,13 @@ const perguntas = [
     },
     {
         enunciado: "No âmbito tecnológico, você prefere:",
-        alternativas: ["A humanidade desenvolve a tecnologia ao maximo, mas... mesmo que os civis a utilizem para o bem, seu governo a utiliza para o mal de forma opressora.", "Alternativa 6"]
+        alternativas: ["A humanidade desenvolve a tecnologia ao maximo, mas... mesmo que os civis a utilizem para o bem, seu governo a utiliza para o mal de forma opressora.", "Conseguimos criar uma técnologia de ponta que combate celulas cancerígenas e imitam celulas tronco, mas... todos os países que tem direito à saúde pública tenham-no removido."]
     }
 ]
+const valores = [120, 120, 120, 120, 120];
+let soma = 0;
+for(const valor of valores){
+some = soma + valor;
+}
+let calculos = soma/valores.length;
+console.log("A média dos valores foi: " + calculo)
