@@ -1,5 +1,11 @@
-const caixaPrincipal = documment.querySelector(".caixa-principal");
-const caixaPerguntas = documment.querySelector(".caixa-perguntas");
-const caixaAlternativas = documment.querySelector(".caixa-alternaivas");
-const caixaResultados = documment.querySelector(".caixa-resultado");
-const caixaResultadol = documment.querySelector(".caixa-resultado");
+const caixaPrincipal = document.querySelector(".caixa-principal");
+const caixaPerguntas = document.querySelector(".caixa-perguntas");
+const caixaAlternativas = document.querySelector(".caixa-alternaivas");
+const caixaResultados = document.querySelector(".caixa-resultado");
+const caixaResultadol = document.querySelector(".caixa-resultado");
+
+const perguntas = [
+    {
+        enunciado: "No âmbito social, você prefere:"
+    }
+]
