@@ -11,7 +11,7 @@ const perguntas = [
     },
     {
          enunciado: "No âmbito ambiental, você prefere:",
-        alternativas: ["Despoluir completamente os oceanos, mas... a humanidade ficara impossibilitada de criar ou tirar qualquer renda economica a partir deles.", "Alternativa 4"]
+        alternativas: ["Despoluir completamente os oceanos, mas... a humanidade ficara impossibilitada de criar ou tirar qualquer renda economica a partir deles.", "Restituir grandes reservas naturais espalhadas ao redor do mundo, mas... o tráfico animal e humano aumentará."]
     },
     {
         enunciado: "No âmbito tecnológico, você prefere:",
