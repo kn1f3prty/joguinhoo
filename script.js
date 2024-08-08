@@ -12,10 +12,10 @@ const perguntas = [
     },
     {
          enunciado: "No âmbito ambiental, você prefere:",
-        alternativas: ["Alternativa 3", "Alternativa 4"
+        alternativas: ["Despoluir completamente os oceanos, mas... a humanidade ficara impossibilitada de criar ou tirar qualquer renda economica a partir deles.", "Alternativa 4"
     },
     {
         enunciado: "No âmbito tecnológico, você prefere:",
-        alternativas: ["Alternativa 5", "Alternativa 6"
+        alternativas: ["A humanidade desenvolve a tecnologia ao maximo, mas... mesmo que os civis a utilizem para o bem, seu governo a utiliza para o mal de forma opressora.", "Alternativa 6"
     }
 ]
