@@ -52,14 +52,14 @@ const perguntas = [
 let atual = 0;
 let perguntaAtual;
 
-function mostraPerguntas (){
+function mostraPerguntas(){
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent="";
     mostraAlternativas();
 }
 
-function mostraAlternativas (){
+function mostraAlternativas(){
     for (const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativa = document.createElement("button");
         botaoAlternativa.textContent = alternativa.texto;
@@ -67,4 +67,4 @@ function mostraAlternativas (){
     }
 }
 
-mostraPerguntas ();
+mostraPerguntas();
