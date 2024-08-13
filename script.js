@@ -15,7 +15,7 @@ const perguntas = [
             },
             {
                 texto: "Todas as crianças no sistema de adoção encontrariam um bom lar, mas... a quantidade de animais abandonados duplicaria.",
-                afirmacao: "Afirmação 2",
+                afirmacao: "Não existe mais sistema de adoção e todas as criançinhas estão felizes! Yay! Mas por SUA causa milhares de animaizinhos estão sendo maltratados, passando frio, fome e sem amor e carinho nas ruas. <3 ",
             },
         ]
     },
