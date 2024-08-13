@@ -10,7 +10,7 @@ const perguntas = [
         alternativas: [
             {
                  texto: "Acabar com todos os problemas sociais do Brasil, como a pobreza, fome, preconceitos raciais, etc...mas extinguir a Amazônia.",
-                 afirmacao: "Parabéns! Você acabou com todos os probleas sociais do país! ...Agora imagine a Amazônia queimando e todos ops animaizinhos morrendo em agonia.",
+                 afirmacao: "Parabéns! Você acabou com todos os probleas sociais do país! ...Agora imagine a Amazônia queimando e todos os animaizinhos morrendo em agônia. <3 ",
 
             },
             {
