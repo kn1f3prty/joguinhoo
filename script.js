@@ -9,12 +9,12 @@ const perguntas = [
         enunciado: "No âmbito social, você prefere:",
         alternativas: [
             {
-                 texto: "Acabar com todos os problemas sociais do Brasil, como a pobreza, fome, preconceitos raciais, etc...mas extinguir a amazonia.",
+                 texto: "Acabar com todos os problemas sociais do Brasil, como a pobreza, fome, preconceitos raciais, etc...mas extinguir a Amazônia.",
                  afirmacao: "Afirmação 1",
 
             },
             {
-                texto: "Todas as crianças no sistema de adoçao encontrariam um bom lar, mas... a quantidade de animais abandonados duplicaria.",
+                texto: "Todas as crianças no sistema de adoção encontrariam um bom lar, mas... a quantidade de animais abandonados duplicaria.",
                 afirmacao: "Afirmação 2",
             },
         ]
