@@ -84,5 +84,4 @@ function respostaSelecionada (alternativa){
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
  }
-
  mostraPerguntas();
