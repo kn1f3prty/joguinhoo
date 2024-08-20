@@ -81,7 +81,7 @@ function respostaSelecionada (opcaoSelecionada){
 
  function mostraResultado(){
     caixaPerguntas.textContent = "De acordo com sua escolha ...";
-    texto.Resultado.textContent = historiaFinal;
+    textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
  }
 
