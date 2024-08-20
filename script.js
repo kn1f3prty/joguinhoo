@@ -38,7 +38,7 @@ const perguntas = [
         alternativas: [
          {
             texto: "A humanidade desenvolve a tecnologia ao maximo, mas... mesmo que os civis a utilizem para o bem, seu governo a utiliza para o mal de forma opressora.",
-            afirmacao: "Decadas de estudo e sonhos sao concretizadas... mas a mentalidade corrompida de quem está no poder, utiliza tal tecnologia para transformar o mundo em uma distopia opressora e elitista. <3",
+            afirmacao: "Decadas de estudo e sonhos são concretizadas... mas a mentalidade corrompida de quem está no poder utiliza tal tecnologia para transformar o mundo em uma distopia opressora e elitista. <3",
 
          },
          {
@@ -68,7 +68,7 @@ function mostraAlternativas(){
     for (const alternativa of perguntaAtual.alternativas){
         const botaoAlternativa = document.createElement("button");
         botaoAlternativa.textContent = alternativa.texto;
-        botaoAlternativa.addEventListener("click", ()=> opcaoSelecionada(alternativa));
+        botaoAlternativa.addEventListener("click", ()=> respostaSelecionada(alternativa));
         caixaAlternativas.appendChild(botaoAlternativa);
     }
 }
@@ -85,4 +85,4 @@ function respostaSelecionada (opcaoSelecionada){
     caixaAlternativas.textContent = "";
  }
 
-mostraPerguntas();
+ mostraPerguntas();
