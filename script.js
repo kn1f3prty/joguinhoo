@@ -2,7 +2,7 @@ const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultados = document.querySelector(".caixa-resultado");
-const  textoResultado = document.querySelector(".texto-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
@@ -43,7 +43,7 @@ const perguntas = [
          },
          {
            texto: "Conseguimos criar uma técnologia de ponta que combate celulas cancerígenas e imitam celulas tronco, mas... todos os países que tem direito à saúde pública tenham-no removido.",
-           afirmacao: "Afirmação 4",
+           afirmacao: "Parabéns!! Com essa escolha voce salvou diversas pessoas... mas em compensação milhares de pessoas sem grandes condições financeiras, deixaram de ter acesso a saúde. <3",
          },
         ]
     }
