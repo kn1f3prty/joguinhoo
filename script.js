@@ -24,12 +24,12 @@ const perguntas = [
          alternativas: [
             {
                  texto: "Despoluir completamente os oceanos, mas... a humanidade ficara impossibilitada de criar ou tirar qualquer renda economica a partir deles.",
-                 afirmacao: "Afirmação 3",
+                 afirmacao: "Parabéns! Oceanos limpos e saudáveis, porém o mundo se encontra em um completo caos sem uma de suas principais fontes de renda. <3",
 
             },
             {
                 texto: "Restituir grandes reservas naturais espalhadas ao redor do mundo, mas... o tráfico animal e humano aumentará.",
-                afirmacao: "Afirmação 4",
+                afirmacao: "Uma boa escolha! As reservas se encontram restauradas e diversos problemas ambientais foram resolvidos... mas por sua causa... diversas pessoas e animais estão vivendo o inferno na terra, sendo maltradadas, violadas e com fonte de alimento escassa. <3",
             },
         ]
     },
@@ -38,7 +38,7 @@ const perguntas = [
         alternativas: [
          {
             texto: "A humanidade desenvolve a tecnologia ao maximo, mas... mesmo que os civis a utilizem para o bem, seu governo a utiliza para o mal de forma opressora.",
-            afirmacao: "Afirmação 3",
+            afirmacao: "Decadas de estudo e sonhos sao concretizadas... mas a mentalidade corrompida de quem está no poder, utiliza tal tecnologia para transformar o mundo em uma distopia opressora e elitista. <3",
 
          },
          {
@@ -51,6 +51,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
+let historiaFinal = "";
 
 function mostraPerguntas(){
     perguntaAtual = perguntas[atual];
@@ -63,12 +64,14 @@ function mostraAlternativas(){
     for (const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativa = document.createElement("button");
         botaoAlternativa.textContent = alternativa.texto;
-        botaoAlternativa.addEventListener("click", function(){
-            atual++;
-            mostraPerguntas();
-        })
+        botaoAlternativa.addEventListener("click", ()=> opcaoSelecionada(afirmacao));
         caixaAlternativas.appendChild(botaoAlternativa);
     }
 }
+function opcaoSelecionada (){
+    const afirmacoes = opcaoSelecionada.afirmacoes;
 
+       atual ++;
+       mostraPerguntas();
+ }
 mostraPerguntas();
